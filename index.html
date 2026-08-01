@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samir Ghimire — IT System Administrator</title>
+<meta name="description" content="Samir Ghimire — IT System Administrator. Microsoft 365, Intune, Entra ID, networking & licensing infrastructure.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">SAMIR<span class="brand-dot">.</span></span>
+    <nav class="nav">
+      <a href="#about">about</a>
+      <a href="#stack">stack</a>
+      <a href="#experience">experience</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <span class="status-pill"><span class="status-dot"></span>available</span>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-inner">
+      <p class="eyebrow">// IT System Administrator</p>
+      <h1>Samir <span class="surname">Ghimire</span></h1>
+      <p class="hero-tagline">I keep identity, endpoints, and licensing infrastructure running across a
+        multi-site engineering organization — from Kathmandu to Syracuse.</p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+        <a href="/samir-resume.pdf" class="btn btn-ghost" download>Download résumé</a>
+      </div>
+
+      <div class="stat-row">
+        <div class="stat">
+          <span class="stat-value">K&amp;A</span>
+          <span class="stat-label">Engineering Consulting</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">4</span>
+          <span class="stat-label">sites connected via VPN</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">CCNA</span>
+          <span class="stat-label">certified</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signature element: network topology diagram of the skill stack -->
+    <div class="topology" aria-hidden="true">
+      <svg viewBox="0 0 520 520" class="topo-svg">
+        <g class="topo-links" stroke="var(--accent)" stroke-width="1.4" fill="none" opacity="0.55">
+          <line x1="260" y1="260" x2="260" y2="90"></line>
+          <line x1="260" y1="260" x2="420" y2="150"></line>
+          <line x1="260" y1="260" x2="440" y2="330"></line>
+          <line x1="260" y1="260" x2="300" y2="450"></line>
+          <line x1="260" y1="260" x2="110" y2="380"></line>
+          <line x1="260" y1="260" x2="80" y2="180"></line>
+        </g>
+        <g class="topo-nodes">
+          <circle class="node node-center" cx="260" cy="260" r="34"></circle>
+          <text x="260" y="265" class="node-label node-label-center">SAMIR</text>
+
+          <circle class="node" cx="260" cy="90" r="24"></circle>
+          <text x="260" y="55" class="node-label">Intune / Entra ID</text>
+
+          <circle class="node" cx="420" cy="150" r="24"></circle>
+          <text x="440" y="130" class="node-label" text-anchor="start">Sophos Central</text>
+
+          <circle class="node" cx="440" cy="330" r="24"></circle>
+          <text x="460" y="345" class="node-label" text-anchor="start">Sentinel HASP/LDK</text>
+
+          <circle class="node" cx="300" cy="450" r="24"></circle>
+          <text x="300" y="488" class="node-label">Networking / VPN</text>
+
+          <circle class="node" cx="110" cy="380" r="24"></circle>
+          <text x="90" y="410" class="node-label" text-anchor="end">Autopilot / Imaging</text>
+
+          <circle class="node" cx="80" cy="180" r="24"></circle>
+          <text x="60" y="150" class="node-label" text-anchor="end">LAPS / Security</text>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="stack" id="stack">
+    <p class="section-eyebrow">01 — systems I run</p>
+    <h2 class="section-title">Stack &amp; tools</h2>
+
+    <div class="stack-grid">
+      <div class="stack-group">
+        <h3>Identity &amp; Endpoint</h3>
+        <ul>
+          <li>Microsoft Intune</li>
+          <li>Entra ID (Conditional Access, MDM)</li>
+          <li>Windows Autopilot</li>
+          <li>LAPS</li>
+        </ul>
+      </div>
+      <div class="stack-group">
+        <h3>Security</h3>
+        <ul>
+          <li>Sophos Central</li>
+          <li>BitLocker recovery</li>
+          <li>HVCI / Memory Integrity</li>
+          <li>FIDO2 authentication</li>
+        </ul>
+      </div>
+      <div class="stack-group">
+        <h3>Networking</h3>
+        <ul>
+          <li>Site-to-site IPSec VPN</li>
+          <li>Sophos Unified Firewall</li>
+          <li>Managed switch configuration</li>
+          <li>CCNA-level routing &amp; switching</li>
+        </ul>
+      </div>
+      <div class="stack-group">
+        <h3>Licensing &amp; Engineering Apps</h3>
+        <ul>
+          <li>Sentinel HASP/LDK</li>
+          <li>CYME</li>
+          <li>AutoCAD licensing</li>
+          <li>PAX8</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <p class="section-eyebrow">02 — where I've worked</p>
+    <h2 class="section-title">Experience</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>IT System Administrator</h3>
+            <span class="timeline-date">May 2026 — Present</span>
+          </div>
+          <p class="timeline-org">K&amp;A Engineering Consulting · Kathmandu, Nepal</p>
+          <p class="timeline-desc">Administer Intune/Entra ID device fleets, manage Sentinel HASP/LDK
+            licensing for CYME and AutoCAD across four sites, and maintain Sophos VPN
+            site-to-site connectivity between Kathmandu and Syracuse HQ.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>L1 Support Associate</h3>
+            <span class="timeline-date">Jan 2026 — Apr 2026</span>
+          </div>
+          <p class="timeline-org">Classic Tech Pvt. Ltd.</p>
+          <p class="timeline-desc">Frontline technical support, ticket triage, and issue resolution.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>Network Assistant</h3>
+            <span class="timeline-date">Feb 2025 — Aug 2025</span>
+          </div>
+          <p class="timeline-org">LABA Pvt. Ltd.</p>
+          <p class="timeline-desc">Hands-on networking support and infrastructure assistance.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>B.E. Computer Engineering</h3>
+            <span class="timeline-date">Graduate</span>
+          </div>
+          <p class="timeline-org">Tribhuvan University</p>
+          <p class="timeline-desc">CCNA certified. Coursework in computer graphics, microprocessor-based
+            control systems, and networking fundamentals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS (edit these to real project write-ups) -->
+  <section class="projects" id="projects">
+    <p class="section-eyebrow">03 — notes from the field</p>
+    <h2 class="section-title">Selected work</h2>
+
+    <div class="project-grid">
+      <article class="project-card">
+        <h3>Sentinel HASP/LDK across sites</h3>
+        <p>Mapped and stabilized the two-layer licensing architecture — Sophos IPSec VPN
+          for network transport, Sentinel protocol for seat checkout — serving CYME and
+          AutoCAD clients in Kathmandu from a Syracuse license server over TCP 1947.</p>
+      </article>
+      <article class="project-card">
+        <h3>Zero-touch deployment with Autopilot</h3>
+        <p>Standardized hardware hash collection and enrollment profiles for Dell OptiPlex
+          and Dell Pro Tower devices, cutting manual imaging time during rollout.</p>
+      </article>
+      <article class="project-card">
+        <h3>Remote switch configuration, no console cable</h3>
+        <p>Documented a DHCP-on-boot workflow for configuring managed L2 switches
+          remotely, plus a hardening checklist for post-deployment.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <p class="section-eyebrow">04 — reach out</p>
+    <h2 class="section-title">Let's talk</h2>
+    <p class="contact-copy">Open to conversations about IT infrastructure, networking, and
+      systems administration roles.</p>
+
+    <div class="contact-links">
+      <a href="mailto:your.email@example.com" class="contact-link">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">your.email@example.com</span>
+      </a>
+      <a href="https://np.linkedin.com/in/samir-ghimire-871897314" class="contact-link" target="_blank" rel="noopener">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">linkedin.com/in/samir-ghimire</span>
+      </a>
+      <a href="https://github.com/your-username" class="contact-link" target="_blank" rel="noopener">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/your-username</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Samir. Built with plain HTML, CSS &amp; JS.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
